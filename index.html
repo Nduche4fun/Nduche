@@ -15,7 +15,7 @@
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('sw.js')
+                navigator.serviceWorker.register('/Nduche?sw.js')
                     .then(reg => console.log('Service Worker Registered', reg))
                     .catch(err => console.log('Service Worker Registration Failed', err));
             });
@@ -1918,3 +1918,4 @@
 </body>
 
 </html>
+
